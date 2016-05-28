@@ -1,0 +1,22 @@
+{
+  "name": "serega_shybaev",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "dizhetskyi <dizhetskyi@corevalue.net>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "bootstrap": "^3.3.6",
+    "fancybox": "^2.1.5"
+  }
+}

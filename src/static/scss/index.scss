@@ -1,0 +1,17 @@
+@import './utils/sprite';
+@include sprites($spritesheet-sprites);
+
+@import './list';
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.test {
+  line-height: 20px;
+}
+
+.icon-skype-messanger:hover {
+  @extend .icon-skype-messanger-hover;
+}
